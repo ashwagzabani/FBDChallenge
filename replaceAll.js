@@ -22,13 +22,13 @@ console.log("The new text: ", replaceAll());
 */
 function replaceAll() {
 
-    oldText.split(" ").map(word => {
+    newText = oldText.split(" ").map(word => {
         if (oldWord == word)
             word = newWord
-
-        newText += word + " "
+        return word 
+        
     });//end map function
 
-    return newText;
+    return newText.join(' ');
 
 }//end replaceAll function
