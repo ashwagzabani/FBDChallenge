@@ -25,8 +25,8 @@ function replaceAll() {
     newText = oldText.split(" ").map(word => {
         if (oldWord == word)
             word = newWord
-        return word 
-        
+        return word
+
     });//end map function
 
     return newText.join(' ');
