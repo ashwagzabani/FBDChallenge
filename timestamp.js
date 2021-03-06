@@ -2,6 +2,7 @@
  * The following program contains the source code for retrive current date and calculate the current week.
  */
 
+
 const today = new Date();                       //Assign the today date to today
 let firstDayOfYear,                             //Declaration a variable to assign the first day in year to firstDayOfYear
     oneDay,                                     //Declaration a variable to assign the sum of hours, minutes, seconds and miliseconds at one day to oneDay
